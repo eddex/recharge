@@ -1,0 +1,49 @@
+{
+	"events": [
+		{
+			"character": "character-1660563240.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Thank you so much for helping me!"
+		},
+		{
+			"character": "character-1660563240.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": " You just blindly trusted me when I told you to kill these people."
+		},
+		{
+			"character": "character-1660563240.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You humans are so easy to fool."
+		},
+		{
+			"character": "character-1660563240.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You're of no use to me anyomore."
+		},
+		{
+			"character": "character-1660563240.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Now that I'm fully recharged again..."
+		},
+		{
+			"character": "character-1660564061.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I will destroy the WORLD! And I'm starting with you! Hahahahaha!"
+		},
+		{
+			"emit_signal": "0",
+			"event_id": "dialogic_040"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.4",
+		"file": "timeline-1660563869.json",
+		"name": "robot_turns_evil"
+	}
+}

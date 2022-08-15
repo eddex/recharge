@@ -1,0 +1,15 @@
+{
+	"events": [
+		{
+			"character": "character-1660569326.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You won!\nThank you for playing this tiny game. I hope you enjoyed it. :)"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.4",
+		"file": "timeline-1660569313.json",
+		"name": "win"
+	}
+}

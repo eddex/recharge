@@ -1,0 +1,42 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://scenes/Enemy.gd" type="Script" id=1]
+[ext_resource path="res://assets/topdown-shooter/Spritesheet/spritesheet_characters.png" type="Texture" id=2]
+[ext_resource path="res://scenes/EnemyAI.gd" type="Script" id=3]
+[ext_resource path="res://scenes/BulletEnemy.tscn" type="PackedScene" id=4]
+
+[sub_resource type="CircleShape2D" id=1]
+radius = 20.0
+
+[sub_resource type="CircleShape2D" id=2]
+radius = 296.0
+
+[node name="Enemy" type="KinematicBody2D" groups=["enemy"]]
+script = ExtResource( 1 )
+bullet_scene = ExtResource( 4 )
+
+[node name="Sprite" type="Sprite" parent="."]
+texture = ExtResource( 2 )
+region_enabled = true
+region_rect = Rect2( 113, -1, 53, 45 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2( -8, 0 )
+shape = SubResource( 1 )
+
+[node name="EndOfGun" type="Position2D" parent="."]
+position = Vector2( 27, 9 )
+
+[node name="GunDirection" type="Position2D" parent="."]
+position = Vector2( 32, 9 )
+
+[node name="AI" type="Node2D" parent="."]
+script = ExtResource( 3 )
+
+[node name="DetectionZone" type="Area2D" parent="AI"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="AI/DetectionZone"]
+position = Vector2( 176, 0 )
+shape = SubResource( 2 )
+
+[connection signal="body_entered" from="AI/DetectionZone" to="AI" method="_on_DetectionZone_body_entered"]

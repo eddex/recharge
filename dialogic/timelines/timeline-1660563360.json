@@ -1,0 +1,33 @@
+{
+	"events": [
+		{
+			"character": "character-1660563240.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh I'm so glat I've found you! You must help me!"
+		},
+		{
+			"character": "character-1660563240.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I'm running out of energy!!! There are some energy pots scattered around here. But some evil people won't let me get to them."
+		},
+		{
+			"character": "character-1660563240.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "There's no time for questions. You have to kill them so I can refill my batteries before it's too late!"
+		},
+		{
+			"character": "character-1660563240.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "What are you waiting for?! Let's go! Do I seriously have to tell you to walk with W A S D, and shoot with a click on your mouse???"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.4",
+		"file": "timeline-1660563360.json",
+		"name": "start"
+	}
+}

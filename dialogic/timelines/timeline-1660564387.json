@@ -1,0 +1,43 @@
+{
+	"events": [
+		{
+			"character": "character-1660564061.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Aarrgg... This can't be!"
+		},
+		{
+			"character": "character-1660564061.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "My plan was perfect. You..."
+		},
+		{
+			"character": "character-1660564061.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You messed everything up!"
+		},
+		{
+			"character": "character-1660564061.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I will... seek revenge..."
+		},
+		{
+			"character": "character-1660564061.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "..."
+		},
+		{
+			"emit_signal": "0",
+			"event_id": "dialogic_040"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.4",
+		"file": "timeline-1660564387.json",
+		"name": "end"
+	}
+}

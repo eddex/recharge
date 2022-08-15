@@ -1,0 +1,21 @@
+{
+	"color": "#ff2a84f8",
+	"description": "the developer",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1660569326.json",
+	"mirror_portraits": false,
+	"name": "eddex",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": 0,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": ""
+		}
+	],
+	"scale": 100,
+	"theme": ""
+}
